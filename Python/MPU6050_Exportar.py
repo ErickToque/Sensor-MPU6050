@@ -127,6 +127,6 @@ print(f"Datos guardados en {OUTPUT_FILE}")
 FIG_FILE = os.path.splitext(OUTPUT_FILE)[0] + ".png"
 plt.ioff()
 fig.savefig(FIG_FILE, dpi=300)
-print(f"🖼️ Figura guardada en {FIG_FILE}")
+print(f"Figura guardada en {FIG_FILE}")
 
 plt.show() 
