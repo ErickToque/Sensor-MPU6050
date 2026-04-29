@@ -1,4 +1,3 @@
-```python
 """
 ==============================================================
    CAPTURA, ETIQUETADO Y EXPORTACIÓN DE DATOS MPU6050
@@ -38,11 +37,11 @@ CSV + Gráficas
 
 ANTES DE EJECUTAR ESTE SCRIPT DEBES TENER:
 
-✅ Python instalado
-✅ VS Code instalado
-✅ Extensión Python de VS Code
-✅ Entorno virtual (venv)
-✅ Librerías instaladas
+ Python instalado
+ VS Code instalado
+ Extensión Python de VS Code
+ Entorno virtual (venv)
+ Librerías instaladas
 
 ==============================================================
    INSTALACIÓN DE PYTHON
@@ -52,11 +51,11 @@ Descargar Python desde:
 
    https://www.python.org/downloads/
 
-⚠️ IMPORTANTE DURANTE LA INSTALACIÓN:
+ IMPORTANTE DURANTE LA INSTALACIÓN:
 
 MARCAR:
 
-   ☑ Add Python to PATH
+    Add Python to PATH
 
 antes de presionar:
 
@@ -245,7 +244,7 @@ import matplotlib.pyplot as plt
 # Ejemplo:
 #   COM5
 #
-# ⚠️ CAMBIAR SI ES NECESARIO
+#  CAMBIAR SI ES NECESARIO
 # ----------------------------------------------------------
 
 PORT = "COM5"
@@ -269,7 +268,7 @@ BAUD = 9600
 # CARPETA DONDE SE GUARDARÁN LOS DATOS
 # ----------------------------------------------------------
 #
-# ⚠️ IMPORTANTE:
+#  IMPORTANTE:
 #
 # La unidad debe existir.
 #
