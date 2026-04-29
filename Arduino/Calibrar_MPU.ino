@@ -2,21 +2,19 @@
  ==========================================================
    CALIBRACIÓN DEL SENSOR MPU6050
    ==========================================================
-
    IMPORTANTE: INSTALACIÓN CORRECTA DE LA LIBRERÍA
    ----------------------------------------------------------
    Este código fue probado con la librería:
 
-      "MPU6050 by Electronic Cats"
+   "MPU6050 by Electronic Cats"
 
    Instalar desde:
       Arduino IDE -> Herramientas -> Administrar bibliotecas
 
    Buscar:
       MPU6050 Electronic Cats
-
    ----------------------------------------------------------
-   ⚠️ PROBLEMA COMÚN:
+   PROBLEMA COMÚN:
    Existen muchas librerías llamadas "MPU6050" y pueden
    entrar en conflicto entre sí.
 
@@ -27,7 +25,6 @@
       - conflicto de clases
 
    entonces probablemente tienes varias librerías instaladas.
-
    ----------------------------------------------------------
    RECOMENDACIÓN:
    Eliminar manualmente TODAS las librerías MPU6050
@@ -46,7 +43,6 @@
 
    Dejando únicamente la librería:
       MPU6050 by Electronic Cats
-
    ----------------------------------------------------------
    ¿QUÉ HACE ESTE PROGRAMA?
    ----------------------------------------------------------
@@ -65,7 +61,6 @@
    - NO mover el sensor
    - Colocarlo sobre una superficie estable
    - Esperar a que termine el proceso
-
  ==========================================================
 */
 
