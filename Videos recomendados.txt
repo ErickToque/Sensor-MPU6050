@@ -1,0 +1,104 @@
+# Videos recomendados
+
+Estos videos ayudan a solucionar los problemas más comunes relacionados con:
+
+* instalación de Python
+* configuración de PATH
+* instalación de librerías
+* creación de entornos virtuales (`venv`)
+* configuración de VS Code
+
+---
+
+## 1. Agregar Python al PATH de Windows
+
+Explica cómo solucionar errores como:
+
+```text
+python no se reconoce como un comando interno o externo
+```
+
+Video:
+
+https://www.youtube.com/watch?v=B08TNPt7a-M
+
+---
+
+## 2. Instalar librerías de Python en Visual Studio Code
+
+Explica cómo usar:
+
+* `pip install`
+* terminal integrada
+* instalación de paquetes
+* solución de errores comunes
+
+Video:
+
+https://www.youtube.com/watch?v=0otqE0uOWFI
+
+---
+
+## 3. Crear un entorno virtual (venv) en VS Code
+
+Explica:
+
+* creación de `venv`
+* activación
+* selección de intérprete Python
+* aislamiento de librerías
+
+Video:
+
+https://www.youtube.com/watch?v=cAHTJCF2jic
+
+---
+
+## 4. Crear entorno virtual en Python (explicación adicional)
+
+Refuerzo adicional sobre entornos virtuales.
+
+Video:
+
+https://www.youtube.com/watch?v=7PjcNNK5a0Y
+
+---
+
+# Orden recomendado
+
+Se recomienda ver los videos en este orden:
+
+1. Instalar Python
+2. Configurar PATH
+3. Crear entorno virtual
+4. Activar venv
+5. Instalar librerías
+6. Ejecutar scripts
+
+---
+
+# Comandos importantes
+
+Crear entorno virtual:
+
+```bash
+python -m venv venv
+```
+
+Activar entorno virtual:
+
+```powershell
+.\venv\Scripts\Activate
+```
+
+Instalar librerías:
+
+```bash
+pip install pyserial pandas matplotlib keyboard
+```
+
+Ejecutar programa:
+
+```bash
+python archivo.py
+```
